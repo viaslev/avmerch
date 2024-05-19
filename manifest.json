@@ -1,0 +1,44 @@
+{
+  "lang": "ru",
+  "name": "AVART",
+  "short_name": "AVART",
+  "description": "Производство одежды и мерча",
+  "start_url": "/",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "orientation": "any",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/icon/icon512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "capture_links": "existing_client_event",
+  "url_handlers": [
+    {
+      "origin": "https://avartru.com"
+    }
+  ],
+  "dir": "auto",
+  "display_override": [
+    "fullscreen",
+    "standalone",
+    "window-controls-overlay"
+  ],
+  "categories": [
+    "magazines",
+    "shopping"
+  ]
+}
