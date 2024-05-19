@@ -43,15 +43,6 @@ setTimeout(function () {
 }, 3000);
 // Задержка отображения
 
-// YandexRobotSEO
-var intervalId = setInterval(function() {
-    if (document.querySelectorAll('.ecwid').length > 0) {
-        window.YandexRotorSettings.IsLoaded = true;
-        clearInterval(intervalId);
-    }
-}, 1000);
-// YandexRobotSEO
-
 // Удаление аккаунта
 function deleteName(f) {
     if (confirm("Вы уверены, что хотите удалить свою учетную запись? " +
